@@ -46,11 +46,12 @@ namespace Random_Number_Generation
             List<int> tmp = new List<int>();
 
             int k = modulus - 1;
-            if (helperFunctions.PowerOfTwo(modulus) && increment != 0 && increment == ( 4 * k )+1)
+            if (helperFunctions.PowerOfTwo(modulus) && increment != 0 && increment == ( 4 * k )+1 && helperFunctions.GCD(modulus,increment) == 1)
             {
+                cycleLen = modulus ;
 
             }
-           else if (helperFunctions.PowerOfTwo(modulus) && increment == 0 && seed % 2 == 1 && ((multiplier == 5 + (8 * k)) || (multiplier == 3 + (8 * k))))
+            else if (helperFunctions.PowerOfTwo(modulus) && increment == 0 && seed % 2 == 1 && ((multiplier == 5 + (8 * k)) || (multiplier == 3 + (8 * k))))
             {
                 cycleLen = modulus / 4;
 

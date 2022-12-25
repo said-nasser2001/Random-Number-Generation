@@ -10,24 +10,41 @@ namespace Random_Number_Generation
     {
        public static bool isPrime(int m)
         {
-            int counter = 0;
             if (m<2)
                 return false;
-            for (int i = 1; i < m; i++)
+            for (int i = 2; i < m; i++)
             {
                 if(m % i == 0)
                 {
-                    counter++;
-                }
-                if(counter>1)
                     return false;
+                }
             }    
-            return counter == 1;
+            return true;
         }
 
        public static bool PowerOfTwo(int m)
         {
-            return (m & (m - 1)) == 0;
+            while (m>2)
+            {
+                if (m%2 == 0)
+                    m = m/2;
+                else return false;
+            }
+            return true;
+        }
+
+        public static int GCD(int modulus, int increment)
+        {
+            int Remainder;
+
+            while (increment != 0)
+            {
+                Remainder = modulus % increment;
+                modulus = increment;
+                increment = Remainder;
+            }
+
+            return modulus;
         }
     }
-}
+    }
