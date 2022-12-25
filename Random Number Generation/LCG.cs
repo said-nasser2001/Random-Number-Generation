@@ -46,7 +46,7 @@ namespace Random_Number_Generation
             List<int> tmp = new List<int>();
 
             int k = modulus - 1;
-            if (helperFunctions.PowerOfTwo(modulus) && increment != 0 && increment == ( 4 * k )+1 && helperFunctions.GCD(modulus,increment) == 1)
+            if (helperFunctions.PowerOfTwo(modulus) && increment != 0 && multiplier == ( 4 * k )+1 && helperFunctions.GCD(modulus,increment) == 1)
             {
                 cycleLen = modulus ;
 
@@ -80,7 +80,7 @@ namespace Random_Number_Generation
                     }
                 }
             }
-            Console.WriteLine(tmp.Count);
+            Console.WriteLine(cycleLen);
 
         }
 

@@ -20,3 +20,13 @@ D:\collage-projects\Random-Number-Generation\Random Number Generation\obj\Debug\
 D:\collage-projects\Random-Number-Generation\Random Number Generation\obj\Debug\Random Number Generation.csproj.CoreCompileInputs.cache
 D:\collage-projects\Random-Number-Generation\Random Number Generation\obj\Debug\Random Number Generation.exe
 D:\collage-projects\Random-Number-Generation\Random Number Generation\obj\Debug\Random Number Generation.pdb
+E:\Fcis\4th Year Fcis\7th semester\Modeling & Simulation\Random-Number-Generation\Random Number Generation\bin\Debug\Random Number Generation.exe.config
+E:\Fcis\4th Year Fcis\7th semester\Modeling & Simulation\Random-Number-Generation\Random Number Generation\bin\Debug\Random Number Generation.exe
+E:\Fcis\4th Year Fcis\7th semester\Modeling & Simulation\Random-Number-Generation\Random Number Generation\bin\Debug\Random Number Generation.pdb
+E:\Fcis\4th Year Fcis\7th semester\Modeling & Simulation\Random-Number-Generation\Random Number Generation\obj\Debug\Random Number Generation.csproj.AssemblyReference.cache
+E:\Fcis\4th Year Fcis\7th semester\Modeling & Simulation\Random-Number-Generation\Random Number Generation\obj\Debug\Random_Number_Generation.Form1.resources
+E:\Fcis\4th Year Fcis\7th semester\Modeling & Simulation\Random-Number-Generation\Random Number Generation\obj\Debug\Random_Number_Generation.Properties.Resources.resources
+E:\Fcis\4th Year Fcis\7th semester\Modeling & Simulation\Random-Number-Generation\Random Number Generation\obj\Debug\Random Number Generation.csproj.GenerateResource.cache
+E:\Fcis\4th Year Fcis\7th semester\Modeling & Simulation\Random-Number-Generation\Random Number Generation\obj\Debug\Random Number Generation.csproj.CoreCompileInputs.cache
+E:\Fcis\4th Year Fcis\7th semester\Modeling & Simulation\Random-Number-Generation\Random Number Generation\obj\Debug\Random Number Generation.exe
+E:\Fcis\4th Year Fcis\7th semester\Modeling & Simulation\Random-Number-Generation\Random Number Generation\obj\Debug\Random Number Generation.pdb
