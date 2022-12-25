@@ -1,0 +1,22 @@
+C:\Users\mgrha\source\repos\Random Number Generation\Random Number Generation\obj\Debug\Random Number Generation.csproj.AssemblyReference.cache
+C:\Users\mgrha\source\repos\Random Number Generation\Random Number Generation\obj\Debug\Random Number Generation.csproj.SuggestedBindingRedirects.cache
+C:\Users\mgrha\source\repos\Random Number Generation\Random Number Generation\obj\Debug\Random_Number_Generation.Properties.Resources.resources
+C:\Users\mgrha\source\repos\Random Number Generation\Random Number Generation\obj\Debug\Random Number Generation.csproj.GenerateResource.cache
+C:\Users\mgrha\source\repos\Random Number Generation\Random Number Generation\obj\Debug\Random Number Generation.csproj.CoreCompileInputs.cache
+C:\Users\mgrha\source\repos\Random Number Generation\Random Number Generation\bin\Debug\Random Number Generation.exe.config
+C:\Users\mgrha\source\repos\Random Number Generation\Random Number Generation\bin\Debug\Random Number Generation.exe
+C:\Users\mgrha\source\repos\Random Number Generation\Random Number Generation\bin\Debug\Random Number Generation.pdb
+C:\Users\mgrha\source\repos\Random Number Generation\Random Number Generation\obj\Debug\Random Number Generation.exe
+C:\Users\mgrha\source\repos\Random Number Generation\Random Number Generation\obj\Debug\Random Number Generation.pdb
+C:\Users\mgrha\source\repos\Random Number Generation\Random Number Generation\obj\Debug\Random_Number_Generation.Form1.resources
+D:\collage-projects\Random-Number-Generation\Random Number Generation\bin\Debug\Random Number Generation.exe.config
+D:\collage-projects\Random-Number-Generation\Random Number Generation\bin\Debug\Random Number Generation.exe
+D:\collage-projects\Random-Number-Generation\Random Number Generation\bin\Debug\Random Number Generation.pdb
+D:\collage-projects\Random-Number-Generation\Random Number Generation\obj\Debug\Random Number Generation.csproj.AssemblyReference.cache
+D:\collage-projects\Random-Number-Generation\Random Number Generation\obj\Debug\Random Number Generation.csproj.SuggestedBindingRedirects.cache
+D:\collage-projects\Random-Number-Generation\Random Number Generation\obj\Debug\Random_Number_Generation.Form1.resources
+D:\collage-projects\Random-Number-Generation\Random Number Generation\obj\Debug\Random_Number_Generation.Properties.Resources.resources
+D:\collage-projects\Random-Number-Generation\Random Number Generation\obj\Debug\Random Number Generation.csproj.GenerateResource.cache
+D:\collage-projects\Random-Number-Generation\Random Number Generation\obj\Debug\Random Number Generation.csproj.CoreCompileInputs.cache
+D:\collage-projects\Random-Number-Generation\Random Number Generation\obj\Debug\Random Number Generation.exe
+D:\collage-projects\Random-Number-Generation\Random Number Generation\obj\Debug\Random Number Generation.pdb
