@@ -26,7 +26,7 @@ namespace Random_Number_Generation
             lcg.GenerateSequence();
             label7.Text = lcg.cycleLen.ToString();
             List<RandomNumber> randomNumberList = new List<RandomNumber>();
-            for (int i = 0; i < lcg.sequence.Count; i++)
+            for (int i = 0; i < int.Parse(textBox5.Text); i++)
             {
                 RandomNumber randomNumber = new RandomNumber(lcg.sequence[i]);
                 randomNumberList.Add(randomNumber);

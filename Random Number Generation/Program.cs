@@ -18,14 +18,6 @@ namespace Random_Number_Generation
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
 
-
-
-
-
-
-
-
-
         }
     }
 }

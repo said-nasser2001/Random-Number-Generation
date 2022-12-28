@@ -31,7 +31,8 @@ namespace Random_Number_Generation
         public void GenerateSequence()
         {
             sequence = new List<int>();
-            for (int i = 0; i < sequence_len; i++)
+            int numberOfIterations = Math.Max(modulus, sequence_len);
+            for (int i = 0; i < numberOfIterations; i++)
             {
 
                 seed = (multiplier * seed + increment) % modulus;
@@ -46,24 +47,37 @@ namespace Random_Number_Generation
             List<int> tmp = new List<int>();
 
             int k = modulus - 1;
+
+            // test case a = 61 x = 7  m = 16  c = 5 
+
             if (helperFunctions.PowerOfTwo(modulus) && increment != 0 && multiplier == ( 4 * k )+1 && helperFunctions.GCD(modulus,increment) == 1)
             {
+                Console.WriteLine("Case1");
                 cycleLen = modulus ;
 
             }
+            // test case a =125 , 123  x = 7  m=16 c=0
             else if (helperFunctions.PowerOfTwo(modulus) && increment == 0 && seed % 2 == 1 && ((multiplier == 5 + (8 * k)) || (multiplier == 3 + (8 * k))))
             {
+                Console.WriteLine("Case2");
+
                 cycleLen = modulus / 4;
 
 
             }
+            // test case a =5  x = 4  m=3 c=0 
+
             else if (helperFunctions.isPrime(modulus) && increment == 0 && Math.Pow(multiplier,k)-1 % modulus ==0)
             {
+                Console.WriteLine("Case3");
                 cycleLen = modulus - 1;
             }
             else
             {
-                for (int i = 0; i < sequence_len; i++)
+                Console.WriteLine("Case4");
+
+                int numberOfIterations = Math.Max(modulus, sequence_len);
+                for (int i = 0; i < numberOfIterations; i++)
                 {
                     if (!tmp.Contains(sequence[i]))
                     {
@@ -80,6 +94,7 @@ namespace Random_Number_Generation
                     }
                 }
             }
+
             Console.WriteLine(cycleLen);
 
         }
